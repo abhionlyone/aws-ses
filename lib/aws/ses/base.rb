@@ -111,7 +111,8 @@ module AWS #:nodoc:
                     :path => "/",
                     :user_agent => USER_AGENT,
                     :proxy_server => nil,
-                    :region => DEFAULT_REGION
+                    :region => DEFAULT_REGION,
+                    :signature_version => DEFAULT_SIGNATURE_VERSION,
                     }.merge(options)
 
         @signature_version = options[:signature_version] || 2

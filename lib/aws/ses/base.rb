@@ -43,6 +43,8 @@ module AWS #:nodoc:
 
     DEFAULT_MESSAGE_ID_DOMAIN = 'email.amazonses.com'
     
+    DEFAULT_SIGNATURE_VERSION = 4
+    
     UNSIGNED_HEADERS = ['content-length', 'user-agent', 'authorization']
 
     USER_AGENT = 'github-aws-ses-ruby-gem'
